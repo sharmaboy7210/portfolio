@@ -129,13 +129,27 @@ nav{
     font-size: 1.2vw;
     border: none;
     border-radius: 30px;
+    cursor: pointer;
+    animation: blink 1.2s infinite;
 }
 
-#heading button:hover{
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* #heading button:hover{
     background-color: white;
     color: black;
     cursor: pointer;
-}
+} */
 
 #company{
     /* background-color: red; */
@@ -408,7 +422,7 @@ footer .linksicon a:hover{
         background-color: #F3F2F1;
         color: black;
         height: 250px;
-        margin-top: 65vh;
+        margin-top: 69vh;
         border-top-left-radius: 50px;
         border-top-right-radius: 50px;
         box-shadow: 0.5px 1px 6px black;
