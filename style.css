@@ -218,16 +218,28 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1.5vw 0vw;
+    text-align: center;
+    padding: 1vw 1.5vw;
     /* background-color: red; */
 }
 
  #services .div p{
     margin-top: 0.3vw;
-    padding: 1vw;
+    padding: 0.5vw;
     /* background-color: red; */
-    width: 70%;
+    width: 80%;
  }
+
+ #services .div button{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 9px 20px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 5px;
+    border: 1px solid black;
+}
 
 footer{
     /* background-color: red; */
@@ -395,7 +407,7 @@ footer .linksicon a:hover{
     #services{
         /* background-color: green; */
         flex-direction: column;
-        margin-top: 100px;
+        margin-top: 150px;
     }
     #services .div{
         /* background-color: rebeccapurple; */
@@ -417,15 +429,25 @@ footer .linksicon a:hover{
         margin-bottom: 3vw;
         width: 100%;
     }
+
+    #services .div button{
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        padding: 5px 15px;
+        border-radius: 30px;
+        margin-bottom: 15px;
+    }
+
     footer{
         display: block;
         background-color: #F3F2F1;
         color: black;
         height: 250px;
-        margin-top: 69vh;
+        margin-top: 90vh;
         border-top-left-radius: 50px;
         border-top-right-radius: 50px;
-        box-shadow: 0.5px 1px 6px black;
+        box-shadow: 1.5px 0.5px 6px black;
     }
     footer h2{
         /* background-color: red; */
