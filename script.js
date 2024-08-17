@@ -6,6 +6,54 @@ let btn3 = document.querySelector(".btn3")
 
 let copy = 0 
 
+const companyNames = [
+    {
+        id: 1,
+        Name: 'mivi',
+        imgSrc: 'MIVI_LOGO_.png' ,
+        link :'https://www.instagram.com/reel/C-FDSH3xgmk/'
+    },
+    {
+        id: 2,
+        Name: 'hmd',
+        imgSrc: 'HMD.png'
+    },
+    {
+        id: 3,
+        Name: 'adcom',
+        imgSrc: 'adcom.png'
+    },
+    {
+        id: 4,
+        Name: 'gold',
+        imgSrc: 'goldensand-logo_6786a98f-8ed3-4d6a-8d61-0effc9477646_260x.avif'
+    },
+    {
+        id: 5,
+        Name: 'costar',
+        imgSrc: 'logo_d0a2c8eb-db67-42be-9b31-6dfca78cf4cf_310x.avif'
+    },
+    {
+        id: 6,
+        Name: 'urban',
+        imgSrc: 'image-removebg-preview (6).png'
+    }
+];
+
+const container = document.getElementById('company');
+
+companyNames.forEach(company => {
+    const img = document.createElement('img');
+    img.className = company.Name;
+    img.src = company.imgSrc;
+    img.alt = company.Name;
+    img.onclick = () => {
+      window.open(company?.link, '_blank');
+    }
+    container.appendChild(img);
+});
+
+
 btn.addEventListener("click", function(){
     if(copy == 0){
         btn.innerHTML = "Copied"
