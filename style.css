@@ -172,10 +172,6 @@ nav{
     box-sizing: border-box; /* Include padding and border in width and height */
 }
 
-
-
-
-
 #company img:hover{
     transform: scale(1.5);
 }
@@ -252,7 +248,7 @@ footer h2{
 footer .linksicon {
     /* background-color: red; */
     display: flex;
-    /* margin-top: 30px; */
+    margin-top: 19px;
     padding-bottom: 20px;
     gap: 50px;
     justify-content: center;
@@ -349,17 +345,17 @@ footer .linksicon a:hover{
     #company{
      /* background-color: red; */
      /* height: 2vh; */
-    
      padding: 0px;
      margin: 0vw 0vw;
-    
      align-items: center;
      margin: 0px;
      width: 100%;
      overflow-y: scroll;
     }
 
-
+    #company img:hover{
+        transform: none;
+    }
     #aboutcompany{
         /* background-color: red; */
         height: 9vh;
@@ -431,18 +427,11 @@ footer .linksicon a:hover{
         /* text-align: center; */
     }
     footer .linksicon{
-        /* background-color: yellow; */
-        /* padding: 10px 50px;
-        margin-top: 0px;
-        display: block;
-        align-items: center;
-        dis
-        justify-content: center; */
-
         display: flex;
         width: 100%;
         gap: 0;
         flex-wrap: wrap;
+        margin-top: -5px;
     }
     footer .linksicon a{
         display: flex;

@@ -11,32 +11,37 @@ const companyNames = [
         id: 1,
         Name: 'mivi',
         imgSrc: 'MIVI_LOGO_.png' ,
-        link :'https://www.instagram.com/reel/C-FDSH3xgmk/'
+        link :'https://www.youtube.com/watch?v=xFSZW3cwkUM&t=35s'
     },
     {
         id: 2,
         Name: 'hmd',
-        imgSrc: 'HMD.png'
+        imgSrc: 'HMD.png',
+        link :'https://www.instagram.com/reel/C-FDSH3xgmk/'
     },
     {
         id: 3,
         Name: 'adcom',
-        imgSrc: 'adcom.png'
+        imgSrc: 'adcom.png',
+        link: 'https://www.youtube.com/watch?v=LVQsxaOE25k'
     },
     {
         id: 4,
         Name: 'gold',
-        imgSrc: 'goldensand-logo_6786a98f-8ed3-4d6a-8d61-0effc9477646_260x.avif'
+        imgSrc: 'goldensand-logo_6786a98f-8ed3-4d6a-8d61-0effc9477646_260x.avif',
+        link: 'https://www.instagram.com/reel/CetAFivhCCd/'
     },
     {
         id: 5,
         Name: 'costar',
-        imgSrc: 'logo_d0a2c8eb-db67-42be-9b31-6dfca78cf4cf_310x.avif'
+        imgSrc: 'logo_d0a2c8eb-db67-42be-9b31-6dfca78cf4cf_310x.avif',
+        link: 'https://www.instagram.com/reel/CetAFivhCCd/'
     },
     {
         id: 6,
         Name: 'urban',
-        imgSrc: 'image-removebg-preview (6).png'
+        imgSrc: 'image-removebg-preview (6).png',
+        link: 'https://www.youtube.com/watch?v=bHFZIFKXWBc&t=84s'
     }
 ];
 
